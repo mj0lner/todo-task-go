@@ -8,14 +8,8 @@ docker-compose up --build
 
 3)Приложение открывается по адресу: http://localhost:3000
 
-База данных PostgreSQL будет доступна на:
-```
-host: db
-port: 5432
-user: postgres
-password: 12345
-database: todo_db
-```
+Настройки База данных PostgreSQL находятся в .env файле
+
 Остановка проекта : docker-compose down
 
 API-эндпоинты:
